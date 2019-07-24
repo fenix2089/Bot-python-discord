@@ -562,7 +562,7 @@ class BotPrincipal:
         #Inicio de arturo
         await ctx.send(embed=embed)
 bot = commands.Bot(command_prefix=commands.when_mentioned_or("$"),
-                   description='Bot creado para ayudar')
+                   description='Bot')
 
 @bot.event
 async def on_ready():
@@ -570,4 +570,5 @@ async def on_ready():
 print('------')
 
 bot.add_cog(BotPrincipal(bot))
-bot.run('NDc4NzcxOTgyOTMwOTM1ODE5.Dl0R8w.gy7_VHlA3YJl8rtXOWsRbqGZGzI')
+#Aca lleva el token
+bot.run('')
