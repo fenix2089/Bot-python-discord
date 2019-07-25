@@ -1,4 +1,4 @@
-import asyncio #libreria de asyncio
+import asyncio #libreri
 
 import discord #libreria de discord
 import youtube_dl #necesitamos la libreria de youtube_dl instalar con pip como extra se necesita ytdl, instalar con apt-get
@@ -19,7 +19,7 @@ ytdl_format_options = {
     'quiet': True,
     'no_warnings': True,
     'default_search': 'auto',
-    'source_address': '0.0.0.0' # dejar como esta
+    'source_address': '0.0.0.0' 
 }
 
 ffmpeg_options = {
