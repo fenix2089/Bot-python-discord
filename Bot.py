@@ -471,7 +471,7 @@ class BotPrincipal:
 	async def excepciones(self, ctx): #siempre hay que poner self y ctx
 		await ctx.send(" Son comportamientos anómalos que se producen porque las cosas fallan. Así de simple: todo falla. Porque un fichero de texto está corrupto. Porque el disco duro tiene un sector defectuoso. Porque el usuario interrumpe de forma abrupta la ejecución del programa. Porque el usuario introduce una letra cuando tu programa está esperando un número. Porque hay un cable flojo en un prototipo electrónico. Tu programa puede estar perfectamente escrito, y que algo pase: porque las cosas pasan, y si algo puede pasar, en algún momento ten por seguro que pasará.")
 
-        #Inicio de Arturo
+
 
     @commands.command() #comando de ayuda
     async def ayuda(self, ctx):
@@ -510,7 +510,6 @@ class BotPrincipal:
         embed.add_field(name="$bios", value="ON", inline=False)
         embed.add_field(name="$apache", value="ON", inline=False)
         embed.add_field(name="$algoritmo", value="ON", inline=False)
-        #Inicio de gloria
         embed.add_field(name="$abstracción", value="ON", inline=False)
         embed.add_field(name="$ADSL", value="ON", inline=False)
         embed.add_field(name="$arbol", value="ON", inline=False)
@@ -559,7 +558,6 @@ class BotPrincipal:
         embed.add_field(name="$indentacion", value="ON", inline=False)
         embed.add_field(name="$bucle", value="ON", inline=False)
         embed.add_field(name="$excepciones", value="ON", inline=False)
-        #Inicio de arturo
         await ctx.send(embed=embed)
 bot = commands.Bot(command_prefix=commands.when_mentioned_or("$"),
                    description='Bot')
